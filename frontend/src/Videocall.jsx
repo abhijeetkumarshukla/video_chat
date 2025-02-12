@@ -5,7 +5,7 @@ import SimplePeer from "simple-peer";
 
 const socket = io("http://localhost:5000");
 
-const VideoCall = () => {
+const Videocall = () => {
   const { roomId } = useParams();
   const location = useLocation();
   const queryParams = new URLSearchParams(location.search);
@@ -146,4 +146,4 @@ const VideoCall = () => {
   );
 };
 
-export default VideoCall;
+export default Videocall;

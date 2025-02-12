@@ -1,8 +1,9 @@
 
 import { Route,   Routes, useNavigate } from 'react-router-dom';
 import './App.css'
-import VideoCall from './VideoCall'
+ 
 import { useState } from 'react';
+import Videocall from './VideoCall';
 
 
 export  const Home = () => {
@@ -55,7 +56,7 @@ function App() {
      
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/room/:roomId" element={<VideoCall />} />
+        <Route path="/room/:roomId" element={<Videocall />} />
       </Routes>
   
     </>
