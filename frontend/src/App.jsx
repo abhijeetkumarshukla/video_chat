@@ -3,7 +3,7 @@ import { Route,   Routes, useNavigate } from 'react-router-dom';
 import './App.css'
  
 import { useState } from 'react';
-import Videocall from './VideoCall';
+import Videocall from './components/Videocall';
 
 
 export  const Home = () => {
